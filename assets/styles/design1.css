@@ -15,9 +15,6 @@ h1{
     left: 300px; 
     height: 30px;
     display: inline-block;
-    /*margin-left: -1000px;
-    margin-top: 100px;
-    top: -10px;*/
     font-size: 50px;
     position: absolute;
 }
@@ -26,11 +23,8 @@ h2{
     position: relative;
     top: 100px;
     left: 300px; 
-    /*margin-top: -103px;*/
     height: 30px;
     width: 900px;
-    /*position: static; 
-    padding-right: 0;*/
     color: white;
     background-color: black;
     text-align: center;
@@ -56,6 +50,13 @@ p{
 a{
    text-decoration: underline;
    color: blue; 
+   margin-bottom: 50px;
+   display: block;
+}
+
+article{
+    margin-bottom: 25px;
+    display: block;
 }
 
 #italic{
@@ -66,8 +67,6 @@ a{
     position: relative;
     top: 100px;
     left: 300px; 
-    /*margin: 100px;
-    margin-left: 0px;*/
     width: 900px;
     height: 200px;
 }
@@ -97,8 +96,6 @@ a{
     top: 400px;
     left: 300px; 
     display:block;
-    /*margin-top: 50px;
-    margin-left: 5px;*/
     position:absolute;
 }
 
@@ -108,9 +105,6 @@ a{
     left: 500px; 
     width: 500px;
     height: 300px;
-    /*margin-top: 33px;
-    margin-right: 1400px;
-    right: -150px;*/
     position: absolute;
 }
 
