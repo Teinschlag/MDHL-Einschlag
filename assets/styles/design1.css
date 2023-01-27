@@ -1,15 +1,35 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
+*{
+    font-family: 'Comic Neue', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     height: 30px;
     display: inline-block;
-    margin-left: -905px;
-    top: -30px;
+    margin-left: -990px;
+    margin-top: 100px;
+    top: -10px;
     font-size: 50px;
     position: absolute;
 }
 
 h2{
+    margin-top: -103px;
+    margin-left: 100px;
+    height: 30px;
+    width: 900px;
+    position: static; 
+    padding-right: 0;
+    color: white;
     background-color: black;
-    justify-content: center;
+    text-align: center;
+    display: block;
     
 }
 
@@ -19,16 +39,64 @@ h3{
 
 h4{
     font-weight: normal;
+    margin-left: 10px;
+}
+
+p{
+    font-weight: normal;
+    margin-left: 10px;
+    width: 700px;
+}
+
+#italic{
+    font-style: italic;
 }
 
 #design1{
-    justify-content: center;
+    margin: 100px;
     width: 900px;
-    height: 400px;
+    height: 200px;
     display: inline-block;
 }
 
 #logo{
-    justify-content: left;
+    margin-top: -70px;
+    margin-left: 100px;
+    position: absolute;
+    vertical-align: middle;
+    padding-left: 0px;
+    justify-content: right;
+    width: 150px;
+    
 }
+
+a{
+    border-top: 10px;
+}
+
+a:focus, a:visited{
+    text-decoration: none;
+
+}
+
+.navegador{
+    border: 3px, solid, black;
+    margin-top: 50px;
+    margin-left: 100px;
+    position:absolute;
+    left: 0px;
+}
+
+.sections{
+    width: 500px;
+    height: 300px;
+    margin-top: 33px;
+    margin-right: 1300px;
+    position: absolute;
+    right: -150px;
+}
+
+
+
+
 
