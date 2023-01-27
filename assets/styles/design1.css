@@ -70,16 +70,12 @@ p{
     
 }
 
-a{
-    border-top: 10px;
-}
-
-a:focus, a:visited{
+.active{
     text-decoration: none;
-
 }
 
 .navegador{
+    display:block;
     border: 3px, solid, black;
     margin-top: 50px;
     margin-left: 100px;
