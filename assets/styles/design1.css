@@ -10,21 +10,27 @@
 }
 
 h1{
+    position: relative;
+    top: 100px;
+    left: 300px; 
     height: 30px;
     display: inline-block;
-    margin-left: -1000px;
+    /*margin-left: -1000px;
     margin-top: 100px;
-    top: -10px;
+    top: -10px;*/
     font-size: 50px;
     position: absolute;
 }
 
 h2{
-    margin-top: -103px;
+    position: relative;
+    top: 100px;
+    left: 300px; 
+    /*margin-top: -103px;*/
     height: 30px;
     width: 900px;
-    position: static; 
-    padding-right: 0;
+    /*position: static; 
+    padding-right: 0;*/
     color: white;
     background-color: black;
     text-align: center;
@@ -57,10 +63,17 @@ a{
 }
 
 #design1{
-    margin: 100px;
-    margin-left: 0px;
+    position: relative;
+    top: 100px;
+    left: 300px; 
+    /*margin: 100px;
+    margin-left: 0px;*/
     width: 900px;
     height: 200px;
+}
+
+#design2{
+    display: none;
 }
 
 #logo{
@@ -80,21 +93,25 @@ a{
 }
 
 .navegador{
+    position: relative;
+    top: 400px;
+    left: 300px; 
     display:block;
-    border: 3px, solid, black;
-    margin-top: 50px;
-    margin-left: 5px;
+    /*margin-top: 50px;
+    margin-left: 5px;*/
     position:absolute;
-    left: 0px;
 }
 
 .sections{
+    position: relative;
+    top: 400px;
+    left: 500px; 
     width: 500px;
     height: 300px;
-    margin-top: 33px;
+    /*margin-top: 33px;
     margin-right: 1400px;
+    right: -150px;*/
     position: absolute;
-    right: -150px;
 }
 
 
