@@ -59,6 +59,16 @@ article{
     display: block;
 }
 
+button:disabled,
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    text-decoration: underline;
+    display: block;
+}
+
+
 #italic{
     font-style: italic;
 }
@@ -83,7 +93,6 @@ article{
     padding-left: 0px;
     justify-content: right;
     width: 150px;
-    
 }
 
 .active{
@@ -102,13 +111,15 @@ article{
 .sections{
     position: relative;
     top: 400px;
-    left: 500px; 
+    left: 500px;
     width: 500px;
     height: 300px;
     position: absolute;
 }
 
-
-
+#btn2{
+    visibility: hidden;
+    display: none;
+}
 
 
