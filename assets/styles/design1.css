@@ -64,7 +64,7 @@ button {
     background: none;
     border: 0;
     color: inherit;
-    text-decoration: underline;
+    text-decoration: none;
     display: block;
 }
 
@@ -82,6 +82,18 @@ button {
 }
 
 #design2{
+    display: none;
+}
+
+#design3{
+    display: none;
+}
+
+#design4{
+    display: none;
+}
+
+#design5{
     display: none;
 }
 

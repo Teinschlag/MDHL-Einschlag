@@ -20,6 +20,18 @@
     height: 200px;
 }
 
+#design3{
+    display: none;
+}
+
+#design4{
+    display: none;
+}
+
+#design5{
+    display: none;
+}
+
 h1{
     font-style: italic;
     position: relative;
