@@ -134,7 +134,7 @@ a{
     display: none;
 }
 
-#italic{
+.italic{
     font-style: italic;
 }
 
