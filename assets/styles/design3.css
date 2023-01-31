@@ -51,6 +51,13 @@ h4{
     border: 3px solid black;
 }
 
+
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #design1{
     display: none;
 }
