@@ -50,11 +50,27 @@ body{
   background-color: rgb(236, 250, 255);
 }
 
+dt{
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+dd{
+  text-indent: 20px;
+}
+
 .container1{
+  font-size: 50px;
+  font-style: bold;
   text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-right: 370px;
+  margin-top: 20px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
 }
 
 .logo{
@@ -127,14 +143,28 @@ body{
 }
 
 .tabla{
+  margin-top: -30px;
+  margin-left: -60px;
+  margin-bottom: 30px;
   border-collapse: separate;
-  border-spacing: 100px 30px;
+  border-spacing: 70px 30px;
+}
+
+.rulesList{
+  margin-top: 70px;
+  margin-left: 430px;
+  margin-right: 400px;
+  margin-bottom: 30px;
 }
 
 .contacts{
   display: flex;
   margin-top: 20px;
   width: 500px;
+}
+
+.ultimaLista{
+  text-indent: 20px;
 }
 
 #design1{
@@ -178,3 +208,32 @@ body{
     display: none;
 }
 
+#rules{
+  font-style: bold;
+}
+
+#rulesSubtitle{
+    font-style: normal;
+    margin-top: 30px;
+    width: 100%;
+    color: black;
+    position: relative;
+    display: block;
+    text-align: center; 
+}
+
+#containerRules{
+  margin-left: 400px;
+}
+
+#containerIndex{
+  margin-left: 400px;
+}
+
+#containerAbout{
+  margin-left: 400px;
+}
+
+#containerContact{
+  margin-left: 400px;
+}
