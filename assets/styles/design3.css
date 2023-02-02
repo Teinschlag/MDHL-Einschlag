@@ -1,6 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Rajdhani&display=swap');  
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Rajdhani&display=swap');
 
   *{
     font-family: 'Rajdhani', sans-serif;
@@ -9,26 +9,25 @@
       box-sizing: border-box;
   }
 
-  h1{
+.header{
+  background-image: url(../img/design1_image1.jpg);
+  width: 100%;
+}
+
+ h1{
+    width: 100%;
     font-style: italic;
-    position: relative;
-    top: 120px;
-    left: 460px; 
-    height: 35px;
-    display: inline-block;
+    display: block;
     font-size: 50px;
-    position: absolute;
 }
 
 h2{
+    margin-top: 30px;
+    width: 100%;
     color: black;
     position: relative;
-    height: 30px;
-    width: 900px;
-    text-align: center;
     display: block;
-    top: 190px;
-    left: 100px;
+    text-align: center;
 }
 
 h3{
@@ -39,23 +38,103 @@ h3{
 h4{
   font-weight: normal;
   width: 1000px;
+  margin-bottom: 20px;
 }
 
-.navegador{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    top: 230px;
-    left: 310px; 
-    display: inline-block;
-    position: relative;
-    border: 3px solid black;
+article{
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
+body{
+  background-color: rgb(236, 250, 255);
+}
 
 .container1{
+  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.logo{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.up{
+  background-color: rgb(236, 250, 255);
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navegador{
+  background-color: rgb(236, 250, 255);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 500px;
+  margin-right: 500px;
+  display: block;
+  position: center;
+  border: 3px solid black;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.nav-btn{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.sections{
+  top: 350px;
+  width: 100%;
+  height: 220px;
+  position: center;
+  background-color: rgb(236, 250, 255);
+  /* background-image: url(../img/hockey1.jpg);; */
+}
+
+.active{
+  color: black;
+  text-decoration: none;
+}
+
+.finalImage{
+  margin-top: 200px;
+  margin-right: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.all{
+  background-color: rgb(236, 250, 255);
+}
+
+.lista{
+    margin-left: 500px;
+}
+
+.tabla{
+  border-collapse: separate;
+  border-spacing: 100px 30px;
+}
+
+.contacts{
+  display: flex;
+  margin-top: 20px;
+  width: 500px;
 }
 
 #design1{
@@ -67,17 +146,16 @@ h4{
 }
 
 #design3{
+    display: inline-block;
     position: relative;
-    top: 350px;
-    left: 320px; 
-    width: 800px;
-    height: 200px;
+    width: 900px;
+    height: 400px;
 }
 
 #design4{
   position: relative;
   top: 560px;
-  left: 320px; 
+  left: 320px;
   width: 800px;
   height: 200px;
 }
@@ -85,50 +163,18 @@ h4{
 #design5{
   position: relative;
   top: 260px;
-  left: 320px; 
+  left: 320px;
   width: 800px;
   height: 200px;
 }
 
-  #logo{
-    margin-top: 75px;
-    margin-left: 300px;
-    position: absolute;
-    vertical-align: middle;
-    padding-left: 0px;
-    justify-content: right;
-    width: 150px;
+#logo{
+  justify-content: center;
+  width: 300px;
 }
 
-#btn1{
+#btn2{
     visibility: hidden;
     display: none;
 }
 
-#btn2{
-    margin-left: 120px;
-    margin-right: 100px;
-}
-
-#btn3{
-    margin-left: 120px;
-    margin-right: 100px;
-}
-
-#btn4{
-    margin-left: 120px;
-    margin-right: 100px;
-}
-
-.italic{
-  font-style: italic;
-}
-
-.sections{
-  position: relative;
-  top: 320px;
-  left: 320px;
-  width: 500px;
-  height: 300px;
-  position: absolute;
-}
