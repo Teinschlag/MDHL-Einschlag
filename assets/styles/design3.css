@@ -9,6 +9,8 @@
       box-sizing: border-box;
   }
 
+  
+
 .header{
   background-image: url(../img/design1_image1.jpg);
   width: 100%;
@@ -60,6 +62,10 @@ dd{
   text-indent: 20px;
 }
 
+ol li::marker{
+  font-weight: bold;
+}
+
 .container1{
   font-size: 50px;
   font-style: bold;
@@ -103,6 +109,7 @@ dd{
 }
 
 .nav-btn{
+  background-color: rgb(161, 192, 246);
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -165,6 +172,11 @@ dd{
 
 .ultimaLista{
   text-indent: 20px;
+  list-style-position: inside;
+}
+
+.ulCircle{
+  list-style-type: circle;
 }
 
 #design1{
@@ -184,9 +196,7 @@ dd{
 
 #design4{
   position: relative;
-  top: 560px;
-  left: 320px;
-  width: 800px;
+  width: 500px;
   height: 200px;
 }
 
@@ -235,5 +245,9 @@ dd{
 }
 
 #containerContact{
+  margin-left: 400px;
+}
+
+#containerGame{
   margin-left: 400px;
 }
