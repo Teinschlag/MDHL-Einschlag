@@ -8,9 +8,9 @@
       box-sizing: border-box;
   }
 
-  
 
-.header{
+
+header{
   background-image: url(../img/design1_image1.jpg);
   width: 100%;
 }
@@ -63,6 +63,10 @@ dd{
 
 ol li::marker{
   font-weight: bold;
+}
+
+fieldset{
+  padding: 10px;
 }
 
 .container1{
@@ -176,6 +180,80 @@ ol li::marker{
   list-style-type: circle;
 }
 
+label{
+  font-weight: bold;
+}
+
+.personalData{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  border: none;
+}
+
+.school{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  border: none;
+}
+
+
+.schools{
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  width: 100%;
+  border: none;
+}
+
+.schools >div {
+  display: flex;
+  flex-direction: column;
+}
+
+.position{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  border: none;
+}
+
+.position >div{
+  display: flex;
+  flex-direction: row;
+}
+
+.position >div input{
+  margin-right: 10px;
+  width: 20px;
+}
+
+.uniformSize{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  border: none;
+}
+
+.uniformSize >div{
+  display: flex;
+  flex-direction: column;
+}
+
+.uniformSize >div input{
+  margin-right: 10px;
+}
+
+.permission{
+  margin: 10px 10px;
+}
+
 #design1{
     display: none;
 }
@@ -226,7 +304,7 @@ ol li::marker{
     color: black;
     position: relative;
     display: block;
-    text-align: center; 
+    text-align: center;
 }
 
 #containerRules{
@@ -248,4 +326,8 @@ ol li::marker{
 
 #containerGame{
   margin-left: 400px;
+}
+
+.title{
+  justify-items: flex-start;
 }
