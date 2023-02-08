@@ -67,6 +67,7 @@ ol li::marker{
 
 fieldset{
   padding: 10px;
+  border: none;
 }
 
 .container1{
@@ -184,12 +185,54 @@ label{
   font-weight: bold;
 }
 
+/* .registrationForm{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+} */
+
 .personalData{
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
   width: 100%;
   border: none;
+  margin-bottom: 20px;
+}
+
+.firstLine{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  /* text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  place-content: middle; */
+}
+
+.secondLine{
+  display: flex;
+  width: 30%;
+  justify-content: start;
+}
+
+.thirdLine{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.fourthLine{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.fifthLine{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
 }
 
 .school{
@@ -198,8 +241,8 @@ label{
   gap: 10px;
   width: 100%;
   border: none;
+  margin-bottom: 20px;
 }
-
 
 .schools{
   display: flex;
@@ -207,6 +250,8 @@ label{
   gap: 10px;
   width: 100%;
   border: none;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .schools >div {
@@ -214,23 +259,23 @@ label{
   flex-direction: column;
 }
 
-.position{
+.positions{
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
   width: 100%;
   border: none;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.position >div{
+.positions >div{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.position >div input{
+.positions >div input{
   margin-right: 10px;
-  width: 20px;
 }
 
 .uniformSize{
@@ -239,6 +284,8 @@ label{
   gap: 10px;
   width: 100%;
   border: none;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .uniformSize >div{
@@ -251,7 +298,64 @@ label{
 }
 
 .permission{
+  background-color: rgb(236, 250, 255);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  display: block;
+  text-align: justify;
+  justify-content: space-between;
+}
+
+.permission >dl>dt{
+  text-align: center;
+}
+
+.signDate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.finalButtons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.maps{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+iframe{
   margin: 10px 10px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px 10px gray;
+  padding: 1em;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  border: none;
+  justify-content: center;
+}
+
+.back{
+  display: flex;
+  text-align: center;
 }
 
 #design1{
@@ -328,6 +432,3 @@ label{
   margin-left: 400px;
 }
 
-.title{
-  justify-items: flex-start;
-}
