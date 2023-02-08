@@ -30,32 +30,29 @@
         </div>
     </header>
     <nav class="navegador">
-        <button id="btn3" class="nav-btn"><a href="./index.html">Home</a></button>
-        <button id="btn5" class="nav-btn"><a href="./game_info.html">Game Info</a></button>
-        <button id="btn6" class="nav-btn"><a href="./rules.html">Rules & Policy</a></button>
-        <button id="btn7" class="nav-btn"><a class="active" href="./#.html">Registration</a></button>
-        <button id="btn1" class="nav-btn"><a href="./about.html">About MDHL</a></button><button id="btn2"
-            class="nav-btn"><a href="./about.html">About</a></button>
-        <button id="btn4" class="nav-btn"><a href="./contact.html">Contact</a></button>
+        <a class="nav-btn" href="./index.html">Home</a>
+        <a class="nav-btn" href="./game_info.html">Game Info</a>
+        <a class="nav-btn" href="./rules.html">Rules & Policy</a>
+        <a class="nav-btn" href="#">Registration</a>
+        <a class="nav-btn" href="./about.html">About MDHL</a>
+        <a class="nav-btn" href="./contact.html">Contact</a>
     </nav>
 
     <main>
-        <!-- <h1 class="registrationForm">Registration Form</h1> -->
+        <h2 class="registrationForm">Registration Form</h2>
         <form action="./showData.html" method="get">
                 <fieldset class="personalData">
                     <div class="firstLine">
-                        <label for="name">Player's First Name:</label>
-                        <input type="text" name="name" id="name" required>
-                        <label for="lastname">Last Name:</label>
-                        <input type="text" name="lastname" id="lastname" required>
+                        <label for="name">Player's First Name:<input type="text" name="name" id="name" size="30"required></label>
+                        <label for="lastname">Last Name:<input type="text" name="lastname" id="lastname" size="25" required></label>
                     </div>
                     <div class="secondLine">
                         <label for="adress">Street Adress:</label>
                         <input type="text" name="adress" id="adress" size="63" required>
                     </div>
                     <div class="thirdLine">
-                        <label for="city">City:<input type="text" name="city" id="city" required></label>
-                        <label for="zipCode">Zip code:<input type="text" name="zipCode" id="zipCode" required></label>
+                        <label for="city">City:<input type="text" name="city" id="city" size="45" required></label>
+                        <label for="zipCode">Zip code:<input type="text" name="zipCode" id="zipCode" size="30" required></label>
                     </div>
                     <div class="fourthLine">
                         <label for="birthDate">Birth Date(mm/dd/yyyy):<input type="date" name="birthDate" id="birthDate" required></label>

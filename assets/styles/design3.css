@@ -13,6 +13,8 @@
 header{
   background-image: url(../img/design1_image1.jpg);
   width: 100%;
+  display: inline-block;
+  align-items: center;
 }
 
  h1{
@@ -24,6 +26,7 @@ header{
 
 h2{
     margin-top: 30px;
+    margin-bottom: 20px;
     width: 100%;
     color: black;
     position: relative;
@@ -70,6 +73,10 @@ fieldset{
   border: none;
 }
 
+label{
+  font-weight: bold;
+}
+
 .container1{
   font-size: 50px;
   font-weight: bold;
@@ -101,20 +108,21 @@ fieldset{
 
 .navegador{
   background-color: rgb(236, 250, 255);
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 500px;
-  margin-right: 500px;
-  display: block;
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  gap: 10px;
   border: 3px solid black;
-  text-align: center;
-  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .nav-btn{
+  display: flex;
+  flex-direction: row;
   background-color: rgb(161, 192, 246);
-  margin-left: 20px;
-  margin-right: 20px;
+  border: 1px solid black;
+  padding: 1px;
+  margin-left: 6px;
 }
 
 .italic{
@@ -122,16 +130,12 @@ fieldset{
 }
 
 .sections{
+  margin-top: 20px;
   top: 350px;
   width: 100%;
   height: 220px;
   background-color: rgb(236, 250, 255);
   /* background-image: url(../img/hockey1.jpg);; */
-}
-
-.active{
-  color: black;
-  text-decoration: none;
 }
 
 .finalImage{
@@ -148,6 +152,7 @@ fieldset{
 }
 
 .lista{
+  margin-top: 20px;
     margin-left: 500px;
 }
 
@@ -181,16 +186,6 @@ fieldset{
   list-style-type: circle;
 }
 
-label{
-  font-weight: bold;
-}
-
-/* .registrationForm{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-} */
-
 .personalData{
   display: flex;
   flex-direction: column;
@@ -203,35 +198,31 @@ label{
 
 .firstLine{
   display: flex;
-  width: 30%;
+  width: 40%;
   justify-content: space-between;
-  /* text-align: center;
-  justify-content: center;
-  margin-bottom: 10px;
-  place-content: middle; */
 }
 
 .secondLine{
   display: flex;
-  width: 30%;
+  width: 40%;
   justify-content: start;
 }
 
 .thirdLine{
   display: flex;
-  width: 30%;
+  width: 40%;
   justify-content: space-between;
 }
 
 .fourthLine{
   display: flex;
-  width: 30%;
+  width: 40%;
   justify-content: space-between;
 }
 
 .fifthLine{
   display: flex;
-  width: 30%;
+  width: 40%;
   justify-content: space-between;
 }
 
@@ -333,8 +324,9 @@ label{
 
 .maps{
   display: flex;
-  width: 100%;
   flex-direction: row;
+  align-items: center;
+  margin-left: -150px;
 }
 
 iframe{
